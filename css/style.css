@@ -1,0 +1,110 @@
+.img-header {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.header-text {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(245, 255, 245);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header-subtext {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  text-align: center;
+  font-size: 70px;
+  color: rgb(245, 255, 245);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.logo-header {
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  width: 200px;
+  height: auto;
+}
+
+.header{
+  background-color: rgb(22, 61, 31);
+}
+
+.nav-text{
+  color: rgb(245, 255, 245);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+
+.carding{
+  margin-top: 20px;
+  width: 500px; 
+  transition: transform 0.3s ease;
+}
+
+.carding:hover {
+  transform: scale(1.05);
+}
+
+.card-img{
+  border: 2px solid rgb(22, 61, 31);
+  object-fit: cover;
+  height: 450px;
+}
+
+.texto-card{
+  position: absolute;
+  bottom: 10px;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(252, 252, 252);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.body{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  padding-top: 20px;
+  z-index: 10;
+}
+
+.index{
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.index img{
+  object-fit: cover;
+  border-radius: 20px;
+  height: 500px; 
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+   padding: 40px;
+  background-color: rgb(22, 61, 31);
+}
+
+.footer-text{
+  margin-bottom: 0px;
+  text-align: center;
+  color: rgb(245, 255, 245);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
